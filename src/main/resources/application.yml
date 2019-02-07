@@ -1,0 +1,12 @@
+spring:
+  application.name: message-log
+
+elasticsearch:
+  host: localhost
+  port: 9200
+
+logging:
+  level:
+    org:
+      springframework:
+        data: DEBUG
